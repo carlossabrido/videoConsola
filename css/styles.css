@@ -1,0 +1,374 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+   
+
+}
+
+.consola{
+    width: 20em;
+    height: 30em;
+    flex: column;
+    
+
+}
+
+.pantalla{
+    width:20em ;
+    height: 15em;
+    background-color: rgb(1, 99, 58);
+    border-radius: 5% 5% 0 0;
+    display: flex;
+    
+    
+}
+
+.marco{
+
+    width: 18em;
+    height: 15em;
+    background-color: rgb(90, 32, 32);
+    margin: 1em ;
+    border-radius: 5% 5% 0 0;
+    display: flex;
+}
+
+.screen{
+
+    width: 13em;
+    height: 8;
+    background-color: rgb(146, 146, 56);
+    margin: 1em;
+    margin-left: 2.6em;
+    margin-bottom: 2.5em;
+}
+    
+.teclado{
+    width:20em ;
+    height: 15em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex: row;
+    
+   
+}
+
+.culo{
+    width: 20em;
+    height: 2.7em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    border-radius: 0 0 440% 440%;
+}
+
+.marco{
+
+    width: 18em;
+    height: 15em;
+    background-color: black;
+    margin: 1em ;
+    border-radius: 5% 5% 0 0;
+    display: flex;
+}
+
+.screen{
+
+    width: 13em;
+    height: 8;
+    background-color: beige;
+    margin: 1em;
+    margin-left: 2.6em;
+    margin-bottom: 2.5em; 
+}
+
+/* Espacio botonera  */
+
+.botonera{
+    width: 7em;
+    height: 15em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex-direction: column;
+
+}
+
+#uno{
+    width: 7em;
+    height: 5em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+}
+#dos{
+    width: 7em;
+    height: 5em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex-direction: column;
+
+}
+#tres{
+    width: 7em;
+    height: 5em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    
+}
+
+#fila1{
+    width: 7em;
+    height: 1.66em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex-direction: row;
+}
+#fila2{
+    width: 7em;
+    height: 1.4em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex-direction: row;
+}
+#fila3{
+    width: 7em;
+    height: 1.66em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex-direction: row;
+}
+
+#flecha1{
+    width: 2.8em;
+    height: 1.66em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+
+}
+#flecha2{
+    width: 1.5em;
+    height: 1.66em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+}
+#flecha3{
+    width: 2.8em;
+    height: 1.66em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+
+}
+#flecha4{
+    width: 1em;
+    height: 1.2em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    
+   
+
+}
+#flecha5{
+    width: 1.7em;
+    height: 1.66em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+}
+#flecha6{
+    width: 1.7em;
+    height: 1.66em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+}
+#flecha7{
+    width: 1.7em;
+    height: 1.66em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+}
+#flecha8{
+    width: 1em;
+    height: 1.66em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+
+}
+
+/* fin espacio botonera  */
+
+/* comienzo del centro  */
+
+.centro{
+    width: 7em;
+    height: 15em;
+    background-color: rgb(106, 106, 19);
+    display: flex;
+    flex-direction: column;
+
+}
+
+#cuatro{
+    width: 7em;
+    height: 5em;
+    background-color: rgb(59, 102, 177);
+    display: flex;
+    flex-direction: column;
+}
+
+#fila11{
+    width: 7em;
+    height: 1.66em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    
+}
+#fila22{
+    width: 7em;
+    height: 1.66em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+#nintendo{
+    width: 4em;
+    height: 1.2em;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1em solid black;
+    border-radius: 35%;
+    font-size: 0.9em;
+}
+#fila33{
+    width: 7em;
+    height: 1.66em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    
+}
+
+#cinco{
+    width: 7em;
+    height: 5em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    
+}
+#seis{
+    width: 7em;
+    height: 5em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#fila222{
+    width: 7em;
+    height: 1.66em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#rectangulo1{
+    width: 2.5em;
+    height: 0.8em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 50%;
+    
+}
+
+#rectangulo2{
+    width: 2.5em;
+    height: 0.8em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 50%;
+
+}
+
+
+
+/* fin del centro  */
+
+/* 2 botones */
+
+.boton{
+    width: 6em;
+    height: 15em;
+    background-color: rgb(12, 43, 29);
+    display: flex;
+    flex-direction: column;
+
+}
+
+#siete{
+    width: 6em;
+    height: 5em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+}    
+#ocho{
+    width: 6em;
+    height: 5em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}    
+
+#izq{
+    width: 1.8em;
+    height: 1.8em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 50%;
+    margin-top: 0.7em;
+    margin-left: 0.3em;
+}
+
+#izq:hover{
+    background-color: rgb(173, 27, 27);
+    border: 0.1em solid rgb(0, 0, 0);
+}
+#der:hover{
+    background-color: rgb(173, 27, 27);
+    border: 0.1em solid rgb(0, 0, 0);
+}
+#der{
+    width: 1.8em;
+    height: 1.8em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 50%;
+    margin-bottom: 1.5em;
+    margin-right: 0.5em;
+}
+#nueve{
+    width: 6em;
+    height: 5em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    
+}    
+
+
