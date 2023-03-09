@@ -23,10 +23,12 @@ body{
 .pantalla{
     width:20em ;
     height: 15em;
-    background-color: rgb(125, 185, 160);
+    background-color: rgb(1, 99, 58);
     border-radius: 5% 5% 0 0;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
 
@@ -35,7 +37,7 @@ body{
     height: 15em;
     background-color: rgb(1, 99, 58);
     display: flex;
-    flex: row;
+    flex-direction: row;
     
    
 }
@@ -51,15 +53,42 @@ body{
 .marco{
 
     width: 18em;
-    height: 15em;
+    height: 11.5em;
     background-color: rgb(163, 57, 57);
-    margin: 1em ;
-    border-radius: 5% 5% 0 0;
+    margin-top: 1em;
+    border-radius:  0 0;
     display: flex;
+    flex-direction: row-reverse;
+    
+}
+   
+.marco1{
+    width: 16.5em;
+    height:11.5em ;
+    background-color: rgb(146, 88, 12);
+    display: flex;
+}
+.marco2{
+    width: 2em;
+    height:11.5em ;
+    background-color: burlywood;
+    display: flex;
+    
+   
 }
 
 
-.marco1{
+
+.barriga{
+    width: 18em;
+    height: 2.5em;
+    background-color: blue;
+    border-radius: 0 0 40% 40%;
+    
+}
+
+
+/* .marco1{
     width: 2rem;
     height: 15rem;
     background-color: aqua;
@@ -72,7 +101,7 @@ body{
     height: 15rem;
     background-color: rgb(0, 255, 38);
     display: flex;
-}
+} */
 
 /* .screen{
 
