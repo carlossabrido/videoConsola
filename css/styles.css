@@ -65,15 +65,58 @@ body{
 .marco1{
     width: 16.5em;
     height:11.5em ;
-    background-color: rgb(146, 88, 12);
+    background-color: rgb(0, 0, 0);
     display: flex;
+    align-items: flex-end;
+    
 }
 .marco2{
-    width: 2em;
+    width: 3.2em;
     height:11.5em ;
-    background-color: burlywood;
+    background-color: rgb(0, 0, 0);
     display: flex;
+    flex-direction: column;
+  
+}
+
+.piloto1{
+    width: 3.1em;
+    height: 4em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+.piloto2{
+    width: 3.1em;
+    height: 2em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: flex end;
+}
+
+.bombilla{
+    width: 0.3em;
+    height: 0.3em;
+    background-color: red;
+    display: flex;
+    border-radius: 50%;
+    margin-left: 0.9em;
+}
+
+.letras{
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.422);
+    margin-left: 0.4rem;
     
+}
+
+.screen{
+
+    width: 12em;
+    height: 10em;
+    background-color: rgb(31, 110, 143);
+    display: flex;
+
    
 }
 
@@ -82,37 +125,22 @@ body{
 .barriga{
     width: 18em;
     height: 2.5em;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
     border-radius: 0 0 40% 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+img{
+   display: flex;
+   width: 7em;
+   height: 3em;
 }
 
 
-/* .marco1{
-    width: 2rem;
-    height: 15rem;
-    background-color: aqua;
-    display: flex;
-    
-}
-
-.marco2{
-    width: 16rem;
-    height: 15rem;
-    background-color: rgb(0, 255, 38);
-    display: flex;
-} */
-
-/* .screen{
-
-    width: 13em;
-    height: 8;
-    background-color: rgb(181, 181, 80);
-    margin: 1em;
-    margin-left: 2.6em;
-    margin-bottom: 2.5em; 
-} */
-
+ 
+ 
 /* Espacio botonera  */
 
 .botonera{
@@ -269,7 +297,7 @@ body{
 #nintendo{
     width: 4em;
     height: 1.2em;
-    background-color: blue;
+    background-color: rgb(1, 99, 58);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -327,6 +355,15 @@ body{
     display: flex;
     border-radius: 50%;
 
+}
+
+#rectangulo1:hover{
+    background-color: rgb(32, 218, 75);
+    border: 0.1em solid black;
+}
+#rectangulo2:hover{
+    background-color: rgb(229, 255, 33);
+    border: 0.1em solid black;
 }
 
 
