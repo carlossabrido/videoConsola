@@ -51,7 +51,7 @@ body{
 .culo{
     width: 20em;
     height: 2.7em;
-    background-color: rgba(1, 99, 58, 0.475);
+    background-color: rgb(1, 99, 58);
     display: flex;
     border-radius: 0 0 440% 440%;
     border-left: 0.1em solid black;
@@ -418,19 +418,36 @@ img{
 #rectangulo1{
     width: 2.5em;
     height: 0.8em;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(163, 57, 57);
     display: flex;
     border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 0.1em;
+
+    
+    
     
 }
 
 #rectangulo2{
     width: 2.5em;
     height: 0.8em;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(163, 57, 57);
     display: flex;
     border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 0.1em;
 
+}
+
+#se{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 0.8em;
 }
 
 #rectangulo1:hover{
@@ -520,7 +537,7 @@ img{
 #nueve{
     width: 6em;
     height: 5em;
-    background-color: rgb(33, 192, 25);
+    background-color: rgb(1, 99, 58);
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -530,14 +547,49 @@ img{
 .agujeros{
     width: 4em;
     height: 3em;
-    background-color: bisque;
+    background-color: rgb(1, 99, 58);
     display: flex;
-}
-.agujeros2{
-    width: 4em;
-    height: 1.5em;
-    background-color: rgb(95, 79, 61);
-    display: flex;
-    margin-right: 1.0em;
+    flex-direction: column;
+    margin-top:3em;
 }
 
+
+.columnitaR{
+    width: 4em;
+    height: 0.6em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    rotate: -3deg;
+}
+ .agu{
+    width: 0.3em;
+    height: 0.3em;
+    background-color: rgb(1, 53, 31);
+    display: flex;
+    border-radius: 50%;
+ }
+ .aguC{
+    width: 0.3em;
+    height: 0.3em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 50%;
+
+
+ }
+
+.columnitaA{
+    width: 4em;
+    height: 0.6em;
+    background-color: rgb(1, 99, 58);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    rotate: -3deg;
+    margin: -0.1em;
+    
+}
