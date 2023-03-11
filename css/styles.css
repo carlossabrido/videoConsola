@@ -16,7 +16,6 @@ body{
     width: 20em;
     height: 30em;
     flex: column;
-   
     
 
 }
@@ -24,7 +23,8 @@ body{
 .pantalla{
     width:20em ;
     height: 15em;
-    background-color: rgb(1, 99, 58);
+    background: rgb(27, 64, 26);
+    background: linear-gradient(0deg, rgb(1,99,58) 0%, rgba(27,64,26) 100%);
     border-radius: 5% 5% 0 0;
     display: flex;
     justify-content: center;
@@ -51,7 +51,8 @@ body{
 .culo{
     width: 20em;
     height: 2.7em;
-    background-color: rgb(1, 99, 58);
+    background: rgb(1,99,58);
+    background: linear-gradient(0deg, rgb(27,64,26) 10%, rgba(1,99,58) 100%);
     display: flex;
     border-radius: 0 0 440% 440%;
     border-left: 0.1em solid black;
@@ -316,12 +317,12 @@ img{
  #guay:hover{
     width: 0; 
     height: 0;
-    border-bottom: 0.7em solid rgb(57, 31, 31);
+    border-bottom: 0.7em solid rgb(176, 112, 112);
     border-right: 0.7em solid transparent;
  }
 
 #circulo:hover{
-    background-color: rgb(57, 31, 31) ;
+    background-color: rgb(176, 112, 112) ;
 }
 
 
