@@ -33,13 +33,13 @@ body{
     border-right: 0.1em solid black;
     border-top: 0.1em solid black;
     border-left: 0.1em solid black;
-    
 }
 
 .teclado{
     width:20em ;
     height: 15em;
     background-color: rgb(1, 99, 58);
+    
     display: flex;
     flex-direction: row;
     border-left: 0.1em solid black;
@@ -51,19 +51,21 @@ body{
 .culo{
     width: 20em;
     height: 2.7em;
-    background-color: rgb(1, 99, 58);
+    background-color: rgba(1, 99, 58, 0.475);
     display: flex;
     border-radius: 0 0 440% 440%;
     border-left: 0.1em solid black;
     border-right: 0.1em solid black;
     border-bottom: 0.1em solid black;
+    flex-direction: column;
+    align-items: end;
 }
 
 .marco{
 
     width: 18em;
     height: 11.5em;
-    background-color: rgb(163, 57, 57);
+    background-color: rgb(195, 65, 65);
     margin-top: 1em;
     border-radius: 5% 5% 0 0;
     display: flex;
@@ -162,6 +164,8 @@ img{
     background-color: rgb(1, 99, 58);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -172,11 +176,14 @@ img{
     display: flex;
 }
 #dos{
-    width: 7em;
+    width: 5.5em;
     height: 5em;
-    background-color: rgb(1, 99, 58);
+    background-color: rgba(9, 70, 22, 0.381);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 1em;
 
 }
 #tres{
@@ -188,85 +195,136 @@ img{
 }
 
 #fila1{
-    width: 7em;
+    width: 1.4em;
     height: 1.66em;
-    background-color: rgb(1, 99, 58);
+    background-color: rgb(163, 57, 57);
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.1em solid black;
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
 }
 #fila2{
-    width: 7em;
+    width: 5em;
     height: 1.4em;
-    background-color: rgb(1, 99, 58);
+    background-color: rgb(6, 45, 29);
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
 #fila3{
-    width: 7em;
+    width: 1.4em;
     height: 1.66em;
-    background-color: rgb(1, 99, 58);
+    background-color: rgb(163, 57, 57);
     display: flex;
     flex-direction: row;
+    border-left: 0.1em solid black;
+    border-right: 0.1em solid black;
+    border-bottom: 0.1em solid black ;
+    justify-content: center;
+    align-items: center;
 }
 
-#flecha1{
-    width: 2.8em;
-    height: 1.66em;
-    background-color: rgb(1, 99, 58);
+ #flecha1{
+    width: 1.78em;
+    height: 1.3em;
+    background-color: rgb(163, 57, 57);
     display: flex;
-
-}
-#flecha2{
-    width: 1.5em;
-    height: 1.66em;
-    background-color: rgb(0, 0, 0);
+    border-bottom: 0.1em solid black ;
+    border-top: 0.1em solid black ;
+    border-left: 0.1em solid black;
+    justify-content: center;
+    align-items: center;
+ }
+ #flecha2{
+    width: 1.66em;
+    height: 1.4em;
+    background-color:rgb(163, 57, 57);
     display: flex;
-
-}
-#flecha3{
-    width: 2.8em;
-    height: 1.66em;
-    background-color: rgb(1, 99, 58);
-    display: flex;
-
-}
-#flecha4{
-    width: 1em;
-    height: 1.2em;
-    background-color: rgb(1, 99, 58);
-    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     
-   
-
-}
-#flecha5{
-    width: 1.7em;
-    height: 1.66em;
-    background-color: rgb(0, 0, 0);
+ }
+ #flecha3{
+    width: 1.78em;
+    height: 1.3em;
+    background-color: rgb(163, 57, 57);
     display: flex;
+    border-bottom: 0.1em solid black ;
+    border-top: 0.1em solid black ;
+    border-right: 0.1em solid black;
+    justify-content: center;
+    align-items: center;
+ }
 
-}
-#flecha6{
-    width: 1.7em;
-    height: 1.66em;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-
-}
-#flecha7{
-    width: 1.7em;
-    height: 1.66em;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-
-}
-#flecha8{
+ #circulo{
     width: 1em;
-    height: 1.66em;
-    background-color: rgb(1, 99, 58);
+    height: 1em;
+    background-color: black;
     display: flex;
+    border-radius: 50%;
 
+ }
+
+ .triangulo1{
+    width: 0; 
+    height: 0;
+    border-bottom: 0.7em solid rgb(0, 0, 0);
+    border-right: 0.7em solid transparent;
+    display: flex;
+    rotate: 135deg; 
+    margin-top: 0.2em;  
+
+ 
+ }
+ .triangulo2{
+    width: 0; 
+    height: 0;
+    border-bottom: 0.7em solid rgb(0, 0, 0);
+    border-right: 0.7em solid transparent;
+    display: flex;
+    rotate: 45deg;  
+    margin-left: 0.2em; 
+
+ }
+ .triangulo3{
+    width: 0; 
+    height: 0;
+    border-bottom: 0.7em solid rgb(0, 0, 0);
+    border-right: 0.7em solid transparent;
+    display: flex;
+    rotate: 225deg;   
+    margin-right: 0.2em;
+
+ }
+ .triangulo4{
+    width: 0; 
+    height: 0;
+    border-bottom: 0.7em solid rgb(0, 0, 0);
+    border-right: 0.7em solid transparent;
+    display: flex;
+    rotate: 315deg;  
+    margin-bottom: 0.2em; 
+
+ }
+
+ #guay:hover{
+    width: 0; 
+    height: 0;
+    border-bottom: 0.7em solid rgb(57, 31, 31);
+    border-right: 0.7em solid transparent;
+ }
+
+#circulo:hover{
+    background-color: rgb(57, 31, 31) ;
 }
+
+
 
 /* fin espacio botonera  */
 
@@ -317,6 +375,11 @@ img{
     border: 0.1em solid black;
     border-radius: 35%;
     font-size: 0.9em;
+}
+
+#nintendo:hover{
+    background-color: rgb(163, 57, 57);
+    transition: 2.5s ;
 }
 #fila33{
     width: 7em;
@@ -414,36 +477,67 @@ img{
 #izq{
     width: 1.8em;
     height: 1.8em;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(163, 57, 57);
     display: flex;
     border-radius: 50%;
+    border: solid black 0.1em;
     margin-top: 0.7em;
     margin-left: 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
 }
 
 #izq:hover{
     background-color: rgb(173, 27, 27);
     border: 0.1em solid rgb(0, 0, 0);
+    color: rgb(196, 174, 174)
 }
 #der:hover{
     background-color: rgb(173, 27, 27);
     border: 0.1em solid rgb(0, 0, 0);
+    color: rgb(196, 174, 174)
 }
 #der{
     width: 1.8em;
     height: 1.8em;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(163, 57, 57);
+    border: solid black 0.1em;
     display: flex;
     border-radius: 50%;
     margin-bottom: 1.5em;
     margin-right: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
+
+
+
 #nueve{
     width: 6em;
     height: 5em;
-    background-color: rgb(1, 99, 58);
+    background-color: rgb(33, 192, 25);
     display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
     
 }    
 
+.agujeros{
+    width: 4em;
+    height: 3em;
+    background-color: bisque;
+    display: flex;
+}
+.agujeros2{
+    width: 4em;
+    height: 1.5em;
+    background-color: rgb(95, 79, 61);
+    display: flex;
+    margin-right: 1.0em;
+}
 
