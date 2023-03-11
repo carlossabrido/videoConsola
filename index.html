@@ -15,12 +15,14 @@
         <div class="pantalla">
             <div class="marco">
                 <div class="marco1">
-                    <div class="screen"></div>
+                    <div class="screen">
+                        <img  id="wow" src="img/animadanintendo.gitf.gif" alt="nintendo">
+                    </div>
                 </div>
                 <div class="marco2">
                     <div class="piloto1"></div>
                     <div class="piloto2">
-                        <div class="bombilla"></div>
+                        <div  id="bombi" onclick="inicio1()"></div>
                         <div class="letras">Power</div>
                     </div>
                     <div class="piloto3"></div>
@@ -68,11 +70,11 @@
                 <div id="seis">
                     <div id="fila11"></div>
                     <div id="fila222">
-                        <div id="rectangulo1">
-                            <p id="se">select</p>
+                        <div id="rectangulo1" onclick="inicio1()"   >
+                            <p id="se" onclick="inicio1()">on</p>
                         </div>
-                        <div id="rectangulo2">
-                            <p id="se">start</p>
+                        <div id="rectangulo2" onclick="inicio2()">
+                            <p id="se" onclick="inicio2()">off</p>
                         </div>
                     </div>
                     <div id="fila33"></div>
@@ -151,7 +153,7 @@
     </div>
     
 
-  
+  <script src="main.js"></script>
   
 </body>
 </html>

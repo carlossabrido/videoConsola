@@ -110,10 +110,10 @@ body{
     align-items: flex end;
 }
 
-.bombilla{
+#bombi{
     width: 0.3em;
     height: 0.3em;
-    background-color: red;
+    background-color: rgb(252, 252, 252);
     display: flex;
     border-radius: 50%;
     margin-left: 0.9em;
@@ -132,8 +132,17 @@ body{
     height: 10em;
     background-color: rgb(31, 110, 143);
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
    
+}
+
+#wow{
+    width: 12em;
+    height: 10em;
+    display: none;
 }
 
 
