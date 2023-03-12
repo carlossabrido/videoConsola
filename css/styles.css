@@ -139,6 +139,8 @@ body{
    
 }
 
+
+
 #wow{
     width: 12em;
     height: 10em;
@@ -387,10 +389,8 @@ img{
     font-size: 0.9em;
 }
 
-#nintendo:hover{
-    background-color: rgb(163, 57, 57);
-    transition: 2.5s ;
-}
+
+
 #fila33{
     width: 7em;
     height: 1.66em;

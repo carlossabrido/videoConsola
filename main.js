@@ -11,3 +11,4 @@ function inicio2() {
     document.getElementById("bombi").style.backgroundColor="white";
 
 }
+
