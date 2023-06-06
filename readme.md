@@ -1,10 +1,19 @@
 # Proyecto Video Consola
 
 Primer proyecto en el que realizo la simulacioón de una video consola.
+ https://carlossabrido.github.io/videoConsola/
 
 # Funcionalidad
 
 La consola tiene una funcionalidad muy simple, puedes interactuar con ella tocando cualquiera de los botones los cuales cambiaran de color mediante la funcion hover simulando movimiento, siendo los unicos botones con una verdadera funcionalidad el boton "on" y "off" los cuales encenderán y apagarán la videoconsola haciendo click en ellos.
+
+
+![Consola](img/Capturadepantalla1.png)
+
+
+![Consola](img/Capturadepantalla2.png)
+
+
 
 
 
